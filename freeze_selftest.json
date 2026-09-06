@@ -1,0 +1,28 @@
+{
+  "frozen": true,
+  "executable": "C:\\_RPA\\aAppEnvios PDF\\_Dist Agendador\\IgarapeDailyCockpit_v1_4_FREEZE_SEM_PS1\\build\\IgarapeDailyCockpit\\IgarapeDailyCockpit.exe",
+  "base": "C:\\_RPA\\aAppEnvios PDF\\_Dist Agendador\\IgarapeDailyCockpit_v1_4_FREEZE_SEM_PS1\\build\\IgarapeDailyCockpit",
+  "cockpit_html": true,
+  "captura_html": true,
+  "imports": {
+    "webview": "ok",
+    "cffi": "ok",
+    "pycparser": "ok",
+    "clr_loader": "ok",
+    "pythonnet": "ok",
+    "pystray": "ok",
+    "PIL": "ok",
+    "openpyxl": "ok",
+    "keyring": "ok",
+    "sounddevice": "ok",
+    "soundfile": "ok",
+    "numpy": "ok",
+    "faster_whisper": "ok",
+    "av": "ok",
+    "ctranslate2": "ok",
+    "tokenizers": "ok",
+    "onnxruntime": "ok",
+    "huggingface_hub": "ok"
+  },
+  "ok": true
+}

@@ -1,0 +1,18 @@
+TESTE WINDOWS - GERAR_FREEZE.bat
+
+Validado em Windows Server 2022 / Python 3.10.11 com:
+- cx_Freeze 6.15.16
+- LIEF 0.12.3
+- pywebview/pythonnet/cffi/pycparser em camada local de compatibilidade
+- faster-whisper como runtime do executavel
+
+Resultado do teste automatizado:
+- launcher GERAR_FREEZE.bat: PASSOU
+- gerar_freeze.py: PASSOU
+- cx_Freeze: PASSOU
+- EXE criado: PASSOU
+- self-test do EXE: PASSOU
+- UI cockpit.html/captura.html: PASSOU
+- validacao dos outputs: PASSOU
+
+Este fluxo nao exige alterar ExecutionPolicy e nao usa PowerShell -ExecutionPolicy Bypass.
